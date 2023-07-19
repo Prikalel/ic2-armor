@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ic2armor",
+  "version": "1.0",
+  "name": "Industrial craft 2 armor",
+  "description": "This mod adds armor for items in ic2!",
+  "authors": [
+    "Velikiy Prikalel"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Prikalel/ic2-armor",
+    "issues": "https://github.com/Prikalel/ic2-armor/issues"
+  },
+  "license": "LGPL 2.1",
+  "icon": "assets/ic2armor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.velikiyprikalel.ic2armor.Ic2armorMod"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": "~1.12",
+    "java": "8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

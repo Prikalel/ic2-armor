@@ -7,8 +7,8 @@ import net.minecraft.item.ItemStack;
 public class Ic2armorTab extends CreativeTabs {
 
     public Ic2armorTab() {
-		super("creativetab");
-		this.setBackgroundImageName("creativetab.png");
+		super("ic2armortab");
+		this.setBackgroundImageName("ic2armor.png");
 	}
 
     @Override

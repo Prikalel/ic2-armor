@@ -1,8 +1,12 @@
 package com.velikiyprikalel.ic2armor.proxy;
 
 import com.velikiyprikalel.ic2armor.Ic2armorMod;
+import com.velikiyprikalel.ic2armor.init.ItemInit;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -11,7 +15,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber(modid = Ic2armorMod.MOD_ID)
-public class BaseProxy {
+public abstract class BaseProxy {
+    protected abstract boolean isServerSide();
+
     public void preInit(FMLPreInitializationEvent event) {
     }
 
@@ -28,10 +34,14 @@ public class BaseProxy {
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
-
+        event.getRegistry().registerAll(ItemInit.ITEM_LIST.toArray(new Item[0]));
     }
 
-    public void registerRenderers() {
-
+    @SubscribeEvent
+    public static void onModelRegister(ModelRegistryEvent event) {
+        for (Item item : ItemInit.ITEM_LIST)
+        {
+            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        }
     }
 }

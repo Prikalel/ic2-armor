@@ -9,6 +9,10 @@ import net.minecraftforge.fml.relauncher.Side;
 
 @Mod.EventBusSubscriber(value = Side.CLIENT, modid = Ic2armorMod.MOD_ID)
 public class ClientProxy extends BaseProxy {
+    @Override
+    protected boolean isServerSide() {
+        return false;
+    }
 
     @Override
     public void preInit(FMLPreInitializationEvent event) {
@@ -24,6 +28,4 @@ public class ClientProxy extends BaseProxy {
     public void postInit(FMLPostInitializationEvent event) {
         super.postInit(event);
     }
-
-    // register models & renderers
 }

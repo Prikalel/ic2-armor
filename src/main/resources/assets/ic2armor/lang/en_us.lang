@@ -1,4 +1,6 @@
-item.helmet_tin.name = Tin Helmet
-item.chestplate_tin.name = Tin Chestplate
-item.leggings_tin.name = Tin leggings
-item.boots_tin.name = Tin boots
+item.helmet_tin.name=Tin Helmet
+item.chestplate_tin.name=Tin Chestplate
+item.leggings_tin.name=Tin leggings
+item.boots_tin.name=Tin boots
+
+itemGroup.ic2armortab=Tutorial Tab

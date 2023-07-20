@@ -7,8 +7,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod.EventBusSubscriber(value = Side.SERVER, modid = Ic2armorMod.MODID)
+@Mod.EventBusSubscriber(value = Side.SERVER, modid = Ic2armorMod.MOD_ID)
 public class ServerProxy extends BaseProxy {
+    public static final String ClassName = ServerProxy.class.getName();
+
     @Override
     public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);

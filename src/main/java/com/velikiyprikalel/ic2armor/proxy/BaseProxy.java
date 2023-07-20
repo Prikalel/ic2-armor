@@ -10,9 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import java.rmi.registry.Registry;
-
-@Mod.EventBusSubscriber(modid = Ic2armorMod.MODID)
+@Mod.EventBusSubscriber(modid = Ic2armorMod.MOD_ID)
 public class BaseProxy {
     public void preInit(FMLPreInitializationEvent event) {
     }

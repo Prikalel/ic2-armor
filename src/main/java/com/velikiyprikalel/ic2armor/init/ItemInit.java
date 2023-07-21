@@ -23,26 +23,26 @@ public class ItemInit {
     public static final ArmorMaterial TIN_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
             "armor_tin",
             Ic2armorMod.MOD_ID + ":tin",
-            1500,
-            new int[] { 4, 7, 9, 5 }, // TODO: adjust. (с ног до головы)
-            17,
+            200,
+            new int[] { 2, 5, 6, 2 },
+            9,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
     public static final ArmorMaterial LEAD_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
             "armor_lead",
             Ic2armorMod.MOD_ID + ":lead",
-            1500,
-            new int[] { 4, 7, 9, 5 },
-            17,
+            500,
+            new int[] { 3, 6, 7, 3 },
+            10,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
 
     public static final ArmorMaterial COPPER_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
             "armor_copper",
             Ic2armorMod.MOD_ID + ":copper",
-            1500,
-            new int[] { 4, 7, 9, 5 },
-            17,
+            150,
+            new int[] { 2, 5, 5, 2 },
+            25,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
 

@@ -1,8 +1,9 @@
 package com.velikiyprikalel.ic2armor.tabs;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+
+import static com.velikiyprikalel.ic2armor.init.ItemInit.TIN_CHESTPLATE;
 
 public class Ic2armorTab extends CreativeTabs {
 
@@ -13,8 +14,7 @@ public class Ic2armorTab extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        // TODO: add tab translation.
-        return new ItemStack(Items.IRON_INGOT);
+        return new ItemStack(TIN_CHESTPLATE);
     }
     
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "ic2:ingot",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "ic2armor:boots_tin"
+  }
+}

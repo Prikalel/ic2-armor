@@ -6,5 +6,9 @@ item.helmet_lead.name=Lead Helmet
 item.chestplate_lead.name=Lead Chestplate
 item.leggings_lead.name=Lead leggings
 item.boots_lead.name=Lead boots
+item.helmet_copper.name=Copper Helmet
+item.chestplate_copper.name=Copper Chestplate
+item.leggings_copper.name=Copper leggings
+item.boots_copper.name=Copper boots
 
 itemGroup.ic2armortab=Tutorial Tab

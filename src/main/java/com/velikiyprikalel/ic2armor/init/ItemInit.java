@@ -37,6 +37,15 @@ public class ItemInit {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
 
+    public static final ArmorMaterial COPPER_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
+            "armor_copper",
+            Ic2armorMod.MOD_ID + ":copper",
+            1500,
+            new int[] { 4, 7, 9, 5 },
+            17,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            0.0F);
+
     // Armor items : tin
     public static final Item TIN_HELMET = new ArmorBase("helmet_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
     public static final Item TIN_CHESTPLATE = new ArmorBase("chestplate_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
@@ -48,4 +57,10 @@ public class ItemInit {
     public static final Item LEAD_CHESTPLATE = new ArmorBase("chestplate_lead", LEAD_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
     public static final Item LEAD_LEGGINGS = new ArmorBase("leggings_lead", LEAD_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
     public static final Item LEAD_BOOTS = new ArmorBase("boots_lead", LEAD_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
+
+    // Armor items : copper
+    public static final Item COPPER_HELMET = new ArmorBase("helmet_copper", COPPER_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
+    public static final Item COPPER_CHESTPLATE = new ArmorBase("chestplate_copper", COPPER_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
+    public static final Item COPPER_LEGGINGS = new ArmorBase("leggings_copper", COPPER_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
+    public static final Item COPPER_BOOTS = new ArmorBase("boots_copper", COPPER_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
 }

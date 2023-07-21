@@ -2,5 +2,9 @@ item.helmet_tin.name=Tin Helmet
 item.chestplate_tin.name=Tin Chestplate
 item.leggings_tin.name=Tin leggings
 item.boots_tin.name=Tin boots
+item.helmet_lead.name=Lead Helmet
+item.chestplate_lead.name=Lead Chestplate
+item.leggings_lead.name=Lead leggings
+item.boots_lead.name=Lead boots
 
 itemGroup.ic2armortab=Tutorial Tab

@@ -19,19 +19,33 @@ public class ItemInit {
 
     public static final List<Item> ITEM_LIST = new ArrayList();
 
-    // Armor material
+    // Armor materials
     public static final ArmorMaterial TIN_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
             "armor_tin",
             Ic2armorMod.MOD_ID + ":tin",
             1500,
-            new int[] { 4, 7, 9, 5 }, // с ног до головы
+            new int[] { 4, 7, 9, 5 }, // TODO: adjust. (с ног до головы)
+            17,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            0.0F);
+    public static final ArmorMaterial LEAD_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
+            "armor_lead",
+            Ic2armorMod.MOD_ID + ":lead",
+            1500,
+            new int[] { 4, 7, 9, 5 },
             17,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
 
-    // Armor items
+    // Armor items : tin
     public static final Item TIN_HELMET = new ArmorBase("helmet_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
     public static final Item TIN_CHESTPLATE = new ArmorBase("chestplate_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
     public static final Item TIN_LEGGINGS = new ArmorBase("leggings_tin", TIN_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
     public static final Item TIN_BOOTS = new ArmorBase("boots_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
+
+    // Armor items : lead
+    public static final Item LEAD_HELMET = new ArmorBase("helmet_lead", LEAD_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
+    public static final Item LEAD_CHESTPLATE = new ArmorBase("chestplate_lead", LEAD_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
+    public static final Item LEAD_LEGGINGS = new ArmorBase("leggings_lead", LEAD_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
+    public static final Item LEAD_BOOTS = new ArmorBase("boots_lead", LEAD_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
 }

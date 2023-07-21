@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "ic2:ingot",
+      "data": 3
+    }
+  },
+  "result": {
+    "item": "ic2armor:leggings_lead"
+  }
+}

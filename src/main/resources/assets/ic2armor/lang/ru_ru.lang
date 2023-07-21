@@ -1,0 +1,14 @@
+item.helmet_tin.name=Оловянный шлем
+item.chestplate_tin.name=Оловянный нагрудник
+item.leggings_tin.name=Оловянные поножи
+item.boots_tin.name=Оловянные сандалии
+item.helmet_lead.name=Свинцовый шлем
+item.chestplate_lead.name=Свинцовый нагрудник
+item.leggings_lead.name=Свинцовые поножи
+item.boots_lead.name=Свинцовые тапки
+item.helmet_copper.name=Медный шлем
+item.chestplate_copper.name=Медный нагрудник
+item.leggings_copper.name=Медные поножи
+item.boots_copper.name=Медные тапочки
+
+itemGroup.ic2armortab=Броня ic2

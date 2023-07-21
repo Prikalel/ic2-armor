@@ -33,6 +33,12 @@ Currently now the list of available armor is:
 [![GitHub contributors](https://img.shields.io/github/contributors/Prikalel/ic2-armor.svg)]()
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/Prikalel/ic2-armor.svg)]()
 
-## Licence
+## Special thanks
 
-[![license](https://img.shields.io/github/license/Prikalel/ic2-armor.svg)](./LICENSE.txt)
+To user https://github.com/shadowfacts for sharing his creative tab.
+
+Tu user https://www.youtube.com/@HarrysTechReviews for creating a video about modding recipes.
+
+To user https://www.youtube.com/@TurtyWurty for his modding videos for 1.12.
+
+And finally to user https://github.com/jexline for sharing his boneequipment mod source code.

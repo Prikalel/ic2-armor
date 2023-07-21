@@ -12,7 +12,11 @@ import net.minecraftforge.common.util.EnumHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+import ic2.core.item.type.IngotResourceType;
+
 public class ItemInit {
+    public static final IngotResourceType bronze = IngotResourceType.bronze; // Just to check that can be imported.
+
     public static final List<Item> ITEM_LIST = new ArrayList();
 
     // Armor material
@@ -20,7 +24,7 @@ public class ItemInit {
             "armor_tin",
             Ic2armorMod.MOD_ID + ":tin",
             1500,
-            new int[] { 4, 7, 9, 5 },
+            new int[] { 4, 7, 9, 5 }, // с ног до головы
             17,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);

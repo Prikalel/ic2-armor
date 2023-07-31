@@ -10,6 +10,7 @@ To successfully install this mod you need a industrial-craft-2 mod installed.
 
 Currently now the list of available armor is:
 
+- Electrical Isolation armor that prevents you from getting electricity damage.
 - Copper armor.
 - Lead armor.
 - Tin armor.

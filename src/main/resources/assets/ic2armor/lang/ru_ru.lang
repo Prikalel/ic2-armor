@@ -10,5 +10,9 @@ item.helmet_copper.name=Медный шлем
 item.chestplate_copper.name=Медный нагрудник
 item.leggings_copper.name=Медные поножи
 item.boots_copper.name=Медные тапочки
+item.helmet_antielectricity.name=Шлем с электроизоляцией
+item.chestplate_antielectricity.name=Нагрудник с электроизоляцией
+item.leggings_antielectricity.name=Штанишки с электроизоляцией
+item.boots_antielectricity.name=Тапочки с электроизоляцией
 
-itemGroup.ic2armortab=Броня ic2
+itemGroup.ic2armortab=Топовая Броня для ic2

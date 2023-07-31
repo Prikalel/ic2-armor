@@ -46,6 +46,15 @@ public class ItemInit {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0F);
 
+    public static final ArmorMaterial ANTIELECTRICITY_ARMOR_MATERIAL = EnumHelper.addArmorMaterial(
+            "armor_antielectricity",
+            Ic2armorMod.MOD_ID + ":antielectricity",
+            200,
+            new int[] {1, 4, 5, 2},
+            12,
+            SoundEvents.ITEM_ARMOR_EQUIP_CHAIN,
+            0.0F);
+
     // Armor items : tin
     public static final Item TIN_HELMET = new ArmorBase("helmet_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
     public static final Item TIN_CHESTPLATE = new ArmorBase("chestplate_tin", TIN_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
@@ -63,4 +72,10 @@ public class ItemInit {
     public static final Item COPPER_CHESTPLATE = new ArmorBase("chestplate_copper", COPPER_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
     public static final Item COPPER_LEGGINGS = new ArmorBase("leggings_copper", COPPER_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
     public static final Item COPPER_BOOTS = new ArmorBase("boots_copper", COPPER_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
+
+    // Armor items : antielectricity
+    public static final Item ANTIELECTRICITY_HELMET = new ArmorBase("helmet_antielectricity", ANTIELECTRICITY_ARMOR_MATERIAL, 1, EntityEquipmentSlot.HEAD);
+    public static final Item ANTIELECTRICITY_CHESTPLATE = new ArmorBase("chestplate_antielectricity", ANTIELECTRICITY_ARMOR_MATERIAL, 1, EntityEquipmentSlot.CHEST);
+    public static final Item ANTIELECTRICITY_LEGGINGS = new ArmorBase("leggings_antielectricity", ANTIELECTRICITY_ARMOR_MATERIAL, 2, EntityEquipmentSlot.LEGS);
+    public static final Item ANTIELECTRICITY_BOOTS = new ArmorBase("boots_antielectricity", ANTIELECTRICITY_ARMOR_MATERIAL, 1, EntityEquipmentSlot.FEET);
 }

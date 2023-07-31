@@ -25,6 +25,10 @@ public class Ic2armorMod {
 
     private static Logger logger;
 
+    public static Logger Logger() {
+        return logger;
+    }
+
     @SidedProxy(clientSide = "com.velikiyprikalel.ic2armor.proxy.ClientProxy", serverSide = "com.velikiyprikalel.ic2armor.proxy.ServerProxy")
     private static BaseProxy proxy;
 

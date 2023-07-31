@@ -3,7 +3,7 @@
   "modid": "ic2armor",
   "name": "Industrial craft 2 armor",
   "description": "This mod adds armor for items in ic2!",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcversion": "${mcversion}",
   "url": "https://github.com/Prikalel/ic2-armor",
   "updateUrl": "",
